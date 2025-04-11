@@ -1,0 +1,94 @@
+{
+  "v": 6,
+  "id": "cm7p128hz00194zcpzjqmbaer",
+  "name": "Location",
+  "folders": [],
+  "requests": [
+    {
+      "v": "11",
+      "name": "Places Api",
+      "method": "GET",
+      "endpoint": "<<GOTO_BASE_URL>>/api/user1/location/places",
+      "params": [
+        {
+          "key": "lat",
+          "value": "28.619514",
+          "active": true,
+          "description": ""
+        },
+        {
+          "key": "lng",
+          "value": "77.3450246",
+          "active": true,
+          "description": ""
+        }
+      ],
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "",
+          "active": true,
+          "description": ""
+        }
+      ],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"level\":\"debug\"\n}"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "11",
+      "name": "Reverse Geo",
+      "method": "POST",
+      "endpoint": "<<GOTO_BASE_URL>>/api/user1/location/reverse-geocode?",
+      "params": [
+        {
+          "key": "lat",
+          "value": "28.619514",
+          "active": true,
+          "description": ""
+        },
+        {
+          "key": "lng",
+          "value": "77.3450246",
+          "active": true,
+          "description": ""
+        }
+      ],
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "",
+          "active": true,
+          "description": ""
+        }
+      ],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"level\":\"debug\"\n}"
+      },
+      "requestVariables": [],
+      "responses": {}
+    }
+  ],
+  "auth": {
+    "authType": "inherit",
+    "authActive": true
+  },
+  "headers": [],
+  "_ref_id": "coll_m7p1m2js_feb899fd-57e0-4070-8a24-2348b99c416e"
+}
