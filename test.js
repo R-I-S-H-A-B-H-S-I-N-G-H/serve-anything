@@ -1,1 +1,1 @@
-console.l
+console.assert()
