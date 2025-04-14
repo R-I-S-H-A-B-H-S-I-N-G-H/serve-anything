@@ -1,1 +1,1 @@
-console.assert()
+console.assert("ddd")
