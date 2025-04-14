@@ -1,2 +1,2 @@
 hello worled 1
-con
+console.log
