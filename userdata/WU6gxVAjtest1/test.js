@@ -1,1 +1,1 @@
-consolof.log("helo")
+consolog.log("helo")
