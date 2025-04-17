@@ -1,1 +1,1 @@
-conso.log()
+conso.log("hello world")
