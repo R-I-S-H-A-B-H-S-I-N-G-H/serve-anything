@@ -1,1 +1,1 @@
-conso.lof()
+conso.log()
