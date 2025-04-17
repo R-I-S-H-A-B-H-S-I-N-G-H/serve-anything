@@ -1,1 +1,1 @@
-consolof.log()
+consolof.log("")
