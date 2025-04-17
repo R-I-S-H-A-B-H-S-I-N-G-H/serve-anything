@@ -1,1 +1,1 @@
-consolog.log("helo")
+conso.log("helo")
